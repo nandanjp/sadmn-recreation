@@ -15,13 +15,13 @@ export default async function Home() {
 
   return (
     <HydrateClient>
-      <div className="mx-auto flex w-full max-w-screen-xl flex-col items-center gap-12 py-6">
+      <div className="mx-auto flex w-full max-w-screen-xl flex-col items-center gap-12 py-6 pb-24">
         <section className="flex w-full flex-col items-center gap-4 py-8 md:py-12 xl:py-20">
           <div className="flex flex-col items-center gap-2 px-5">
             <h1 className="w-full scroll-m-20 text-center text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
               Foundation for your commerce platform
             </h1>
-            <p className="text-muted-foreground max-w-lg text-center text-lg">
+            <p className="max-w-lg text-center text-lg text-muted-foreground">
               Skateshop is an open-source platform for building and customizing
               your own commerce platform with ease. TRPC would like to say
               &apos;
@@ -53,7 +53,7 @@ export default async function Home() {
               <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight first:mt-0 sm:text-3xl">
                 Featured products
               </h2>
-              <p className="text-muted-foreground max-w-lg text-sm sm:text-base md:text-lg">
+              <p className="max-w-lg text-sm text-muted-foreground sm:text-base md:text-lg">
                 Explore products from around the world
               </p>
             </div>
@@ -93,7 +93,7 @@ export default async function Home() {
               <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight first:mt-0 sm:text-3xl">
                 Featured stores
               </h2>
-              <p className="text-muted-foreground max-w-lg text-sm sm:text-base md:text-lg">
+              <p className="max-w-lg text-sm text-muted-foreground sm:text-base md:text-lg">
                 Explore stores from around the world
               </p>
             </div>

@@ -49,7 +49,7 @@ export const docsConfig: DocsConfig = {
       items: [
         {
           title: "Products",
-          href: "/products",
+          href: "/product",
           description: "All products offerred",
         },
         {
@@ -126,7 +126,7 @@ export const docsConfig: DocsConfig = {
       items: [
         {
           title: "Products",
-          href: "/products",
+          href: "/product",
           items: [],
         },
         {
